@@ -59,7 +59,7 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
+        await update.reply_sticker("CAACAgUAAxkBAANPZKbvHqL8bPZEmwlU_-QbxsT5vE4AAt0DAAKU5dFVd0uO11scEcwvBA")
         await update.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
@@ -143,4 +143,4 @@ async def helper_cb(client, CallbackQuery, _):
     elif cb == "hb12":
         await CallbackQuery.edit_message_text(
             helpers.HELP_12, reply_markup=keyboard
-        )
+)
