@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🚀 𝚂𝙾𝚄𝚁𝙲𝙴 💞" callback_data="https://t.me/NIDHI_NETWORKS"
+                text="𝚂𝙾𝚄𝚁𝙲𝙴" callback_data=UPSTREAM_REPO
             )
         ],
      ]
