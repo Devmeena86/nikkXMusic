@@ -5,16 +5,6 @@ from AnonX import AnonXBot
 from AnonX import AnonXBot
 from AnonX import AnonXBot
 
-from AnonX import (
-    DEMONS,
-    DEV_USERS,
-    DRAGONS,
-    LOGGER,
-    OWNER_ID,
-    TIGERS,
-    WOLVES,
-    dispatcher,
-)
 from AnonX.modules.disable import DisableAbleCommandHandler
 from AnonX.modules.helper_funcs.chat_status import (
     bot_admin,
