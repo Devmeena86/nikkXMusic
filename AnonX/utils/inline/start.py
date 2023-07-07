@@ -19,7 +19,11 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="😁 𝙼𝚈 𝚂𝙴𝚃𝚃𝙸𝙽𝙶 🤣", callback_data="settings_helper"
+                text="🥀 𝚂𝙴𝚃𝚃𝙸𝙽𝙶 😂", callback_data="settings_helper"
+            ),
+            InlineKeyboardButton(
+                text="🤣 𝙳𝙴𝚅'𝚂 𝙶𝙵 🤭", callback_data="https://t.me/Itz_darshaner"
+            
             ),
         ],
      ]
@@ -49,7 +53,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url=f"https://te.legra.ph/file/ebee76577947b83208dac.jpg"
+                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url="https://te.legra.ph/file/ebee76577947b83208dac.jpg"
              
             )
         ],
