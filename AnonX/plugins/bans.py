@@ -27,7 +27,7 @@ from AnonX.modules.helper_funcs.chat_status import (
     user_admin,
     user_can_ban,
 )
-from AnonX<.modules.helper_funcs.extraction import extract_user_and_text
+from AnonX.modules.helper_funcs.extraction import extract_user_and_text
 from AnonX.modules.helper_funcs.string_handling import extract_time
 from AnonX.modules.log_channel import gloggable, loggable
 
