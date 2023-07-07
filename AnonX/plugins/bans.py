@@ -1,6 +1,6 @@
 import html
 
-from AnonX import AnonXBot, Update
+from AnonX import AnonXBot
 from AnonX import BadRequest
 from AnonX import CallbackContext, CommandHandler, Filters
 from AnonX import mention_html
