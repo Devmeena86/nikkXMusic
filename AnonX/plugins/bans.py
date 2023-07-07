@@ -1,9 +1,9 @@
 import html
 
-from telegram import ParseMode, Update
-from telegram.error import BadRequest
-from telegram.ext import CallbackContext, CommandHandler, Filters
-from telegram.utils.helpers import mention_html
+from AnonX import ParseMode, Update
+from AnonX import BadRequest
+from AnonX import CallbackContext, CommandHandler, Filters
+from AnonX import mention_html
 
 from AnonX import (
     DEMONS,
