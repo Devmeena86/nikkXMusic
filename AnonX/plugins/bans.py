@@ -2,7 +2,7 @@ import html
 
 from AnonX import AnonXBot
 from AnonX import AnonXBot
-from AnonX import CallbackContext, CommandHandler, Filters
+from AnonX import AnonXBot
 from AnonX import AnonXBot
 
 from AnonX import (
