@@ -18,12 +18,15 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🌹 𝙳𝙴𝚅'𝚂  𝙱𝙷𝙰𝙸 🌹",
                 url=f"https://t.me/ITZ_NIKK_BABY",
           
-            ),
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text="🥀 𝚂𝙴𝚃𝚃𝙸𝙽𝙶 😂", callback_data="settings_helper"
-            ),
-         
-            InlineKeyboardButton(
+            )
+         ],
+         [   
+             InlineKeyboardButton(
                 text="🔥 𝙳𝙴𝚅'𝚂  𝙵𝚁𝙸𝙴𝙽𝙳 💖", url=f"https://t.me/Mahakal_ki_mahakali"
            
             ),
