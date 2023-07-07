@@ -9,7 +9,8 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🤣 𝙳𝙴𝚅'𝚂 𝙶𝙵 🤭", url=f"https://t.me/Itz_darshaner"",
+                text="🤣 𝙳𝙴𝚅'𝚂 𝙶𝙵 🤭",
+                url=f"https://t.me/Itz_darshaner",
             )
         ],
         [
