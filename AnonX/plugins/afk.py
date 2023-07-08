@@ -1,8 +1,13 @@
-import html
+from pyrogram import Client, filters
+import requests
 import random
+import os
+import re
+import asyncio
+import time
+from AnonX import app
 
-from AnonX.plugins import afk_sql as sql
-from AnonX.plugins import get_user_id
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
