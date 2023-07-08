@@ -12,9 +12,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-    args = update.effective_message.text.split(None, 1)
-    user = update.effective_user
-
+    
     if not user:  # ignore channels
         return
 
