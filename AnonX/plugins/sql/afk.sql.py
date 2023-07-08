@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import BigInteger, Boolean, Column, UnicodeText
 
-from AnonX.plugins.sql import BASE, SESSION
+from AnonXMusic.plugins.sql import BASE, SESSION
 
 
 class AFK(BASE):
