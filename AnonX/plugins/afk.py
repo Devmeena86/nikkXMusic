@@ -1,8 +1,8 @@
 import html
 import random
 
-from AnonXMusic.plugins import afk_sql as sql
-from AnonXMusic.plugins import get_user_id
+from AnonX.plugins import afk_sql as sql
+from AnonX.plugins import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
