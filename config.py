@@ -18,8 +18,8 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "e358c68c-e4dd-48cf-bbff-319fcac0d3c1")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "devmusic")
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Bhumikatosu/AnonXMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
@@ -83,21 +83,21 @@ PING_IMG_URL = getenv(
     "https://te.legra.ph/file/5e4ae4e6ce53280b4e268.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/26c799cf55c37f86c39f4.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/26c799cf55c37f86c39f4.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/26c799cf55c37f86c39f4.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/26c799cf55c37f86c39f4.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 
