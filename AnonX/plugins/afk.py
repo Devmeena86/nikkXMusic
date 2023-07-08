@@ -5,8 +5,8 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler
 
-from AnonX.plugins import afk_sql as sql
-from AnonX.plugins import get_user_id
+from AnonXMusic.plugins import afk_sql as sql
+from AnonXMusic.plugins import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
