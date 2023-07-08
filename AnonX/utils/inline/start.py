@@ -62,7 +62,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url="https://te.legra.ph/file/ebee76577947b83208dac.jpg"
+                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url=f"https://te.legra.ph/file/ebee76577947b83208dac.jpg"
              
             )
         ],
