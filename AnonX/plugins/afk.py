@@ -1,10 +1,6 @@
 import html
 import random
 
-from telegram import MessageEntity, Update
-from telegram.error import BadRequest
-from telegram.ext import CallbackContext, Filters, MessageHandler
-
 from AnonXMusic.plugins import afk_sql as sql
 from AnonXMusic.plugins import get_user_id
 
