@@ -13,7 +13,7 @@ AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
 
-def afk(update: Update, context: CallbackContext):
+def afk
     args = update.effective_message.text.split(None, 1)
     user = update.effective_user
 
