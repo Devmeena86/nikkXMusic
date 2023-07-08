@@ -12,8 +12,6 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-
-def afk
     args = update.effective_message.text.split(None, 1)
     user = update.effective_user
 
