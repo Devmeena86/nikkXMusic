@@ -6,7 +6,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from pyrogram import filters
-from AnonX.raid import bot as raid
 from AnonX.raid.config import SUDO_USERS
 from AnonX.data import RAID, GROUP, DEADLYSPAM
 from traceback import format_exc
