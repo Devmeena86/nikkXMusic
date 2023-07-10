@@ -9,23 +9,22 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🌹 𝙳𝙴𝚅'𝚂  𝙱𝙷𝙰𝙸 🌹",
-                url=f"https://t.me/ITZ_NIKK_BABY",
+                text="Aᴅᴅ  ᴍᴇ  ᴍᴏɪ  ʙᴀʙy",
+                url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
           
             )
         ],
         [
             InlineKeyboardButton(
-                text="🥀 𝚂𝙴𝚃𝚃𝙸𝙽𝙶 😂", callback_data="settings_helper"
-            )
-         ],
-         [   
-             InlineKeyboardButton(
-                text="🔥 𝙳𝙴𝚅'𝚂  𝙵𝚁𝙸𝙴𝙽𝙳 💖", url=f"https://t.me/Mahakal_ki_mahakali"
+                text="💝 Gʀᴏᴜᴩ  Sᴇᴛᴛɪɴɢ 💝", callback_data="settings_helper"
+            ),           
+     
+            InlineKeyboardButton(
+                text="❤️‍🔥 Cʜᴀᴛᴛɪɴɢ ❤️‍🔥", url=f"https://t.me/II_VNND_WORLD"
            
             ),
             InlineKeyboardButton(
-                text="🔥 𝙳𝙴𝚅'𝚂  𝙵𝚁𝙸𝙴𝙽𝙳 💖", url=f"https://t.me/ITZ_CANDY_SHARMA"
+                text="💘 Nᴇᴛᴡᴏʀᴋ 💘", url=f"https://t.me/NIDHI_NETWORKS"
            
             ),
         ],
@@ -37,26 +36,26 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🤭 𝙰𝙳𝙳  𝙼𝙴  𝙼𝙾𝙸  𝙱𝙰𝙱𝚈 😴",
+                text="Aᴅᴅ  ᴍᴇ  ᴍᴏɪ  ʙᴀʙy",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🍂 𝙷𝙴𝙻𝙿  𝙰𝙽𝙳  𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 🍂", callback_data="settings_back_helper"
+                text="🦋 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅꜱ 🦋", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="💘 𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 💘", url=f"https://t.me/II_VNND_WORLD_II"
+                text="❤️‍🔥 Cʜᴀᴛᴛɪɴɢ ❤️‍🔥", url=f"https://t.me/II_VNND_WORLD_II"
             ),
             InlineKeyboardButton(
-                text="🔥 𝙵𝙾𝚄𝙽𝙳𝙴𝚁  🙂", user_id=OWNER
+                text="💔 Dᴇᴠᴇʟᴏᴩᴇʀ 💔", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url="https://te.legra.ph/file/ebee76577947b83208dac.jpg"
+                text="❤️‍🩹 Sᴏᴜʀᴄᴇ ❤️‍🩹" , url=f"https://te.legra.ph/file/ebee76577947b83208dac.jpg"
              
             )
         ],
