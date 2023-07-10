@@ -361,7 +361,8 @@ PORMS = [
         "https://telegra.ph/file/f5c9ceded3ee6e76a5931.jpg",
         "https://telegra.ph/file/a8bf6c6df8a48e4a306ca.jpg",
         "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
-]RAID = [
+]
+RAID = [
     "MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
     "TERE BEHEN K CHUT ME CHAKU DAAL KAR CHUT KA KHOON KAR DUGA",
     "TERI VAHEEN NHI HAI KYA? 9 MAHINE RUK SAGI VAHEEN DETA HU 🤣🤣🤩",
