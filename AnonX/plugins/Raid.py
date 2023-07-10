@@ -75,7 +75,7 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
-@Raid.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], [".", "!", "/"]))
+@user.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], [".", "!", "/"]))
 async def raid(message: Message):       
     sex = await message.reply_text("`Processing..`")
     quantity = message.command[1]
@@ -91,7 +91,7 @@ async def raid(message: Message):
     if not text_:
         await sex.edit("`Who Should I Raid? You?`")
         return
-    raid = random.choice(RAID) 
+    user = random.choice(RAID) 
     uhm = f"[{userz.first_name}](tg://user?id={userz.id}) {raid}"
     quantity = int(quantity)
 
@@ -104,6 +104,6 @@ async def raid(message: Message):
     for _ in range(quantity):
         await asyncio.sleep(2)
         try:
-            await Raid.send_message(message.chat.id, uhm)            
+            await user.send_message(message.chat.id, uhm)            
         except FloodWait as e:
             await asyncio.sleep(e.x)
