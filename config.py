@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Devmeena86/nikkXMusi
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NIDHI_NETWORKS")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/oye_jaan")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/DP_CHENNAL"
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/oye_jaan"
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -80,7 +80,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/dd69f43854ca9a
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/f6ba4b318de7606f0ea50.jpg",
+    "https://te.legra.ph/file/424dab41b3be5297d4360.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/424dab41b3be5297d4360.jpg"
@@ -97,7 +97,7 @@ STREAM_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
+YOUTUBE_IMG_URCHENNAL"tps://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 
@@ -130,7 +130,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/f6ba4b318de7606f0ea50.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/424dab41b3be5297d4360.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
