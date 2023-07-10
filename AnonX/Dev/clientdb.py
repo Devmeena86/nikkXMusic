@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from AnonX.Dev import db
+from AnonX.Dev import clientdb
 
 assisdb = db.multiassistant
 
