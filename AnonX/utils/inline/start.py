@@ -9,12 +9,6 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🤣 𝙳𝙴𝚅'𝚂 𝙶𝙵 🤭",
-                callback_text="kyu btau🤭",
-            )
-        ],
-        [
-            InlineKeyboardButton(
                 text="🌹 𝙳𝙴𝚅'𝚂  𝙱𝙷𝙰𝙸 🌹",
                 url=f"https://t.me/ITZ_NIKK_BABY",
           
@@ -62,7 +56,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url=f"https://te.legra.ph/file/ebee76577947b83208dac.jpg"
+                text="𝚂𝙾𝚄𝚁𝙲𝙴" , url="https://te.legra.ph/file/ebee76577947b83208dac.jpg"
              
             )
         ],
