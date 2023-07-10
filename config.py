@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dev ダ ᴍᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
 
@@ -30,12 +30,12 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/II_VNND_WORLD_II")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", ""))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", ""))
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "true")
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "540")
 )
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
@@ -76,22 +76,22 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/7f4f4394b2f4dc9284f57.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d830a9dc5036865ebbfdb.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/5e4ae4e6ce53280b4e268.jpg",
+    "https://te.legra.ph/file/f6ba4b318de7606f0ea50.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/424dab41b3be5297d4360.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/424dab41b3be5297d4360.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/dd69f43854ca9a3ec3c0e.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/26c799cf55c37f86c39f4.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/dd69f43854ca9a3ec3c0e.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/653a3e0097d66b31a8219.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/5e4ae4e6ce53280b4e268.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/f6ba4b318de7606f0ea50.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/7f4f4394b2f4dc9284f57.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/d830a9dc5036865ebbfdb.jpg"
