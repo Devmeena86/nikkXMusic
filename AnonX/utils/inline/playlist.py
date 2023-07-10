@@ -5,16 +5,16 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴩᴇʀsᴏɴᴀʟ",
+                text="Pᴇʀsᴏɴᴀʟ",
                 callback_data="get_playlist_playmode",
             ),
             InlineKeyboardButton(
-                text="ɢʟᴏʙᴀʟ", callback_data="get_top_playlists"
+                text="Pʟᴏʙᴀʟ", callback_data="get_top_playlists"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text="💔 Cʟᴏsᴇ 💔", callback_data="close"
             ),
         ],
     ]
@@ -25,28 +25,28 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
+                text="Tᴏᴘ 10 Pʟᴀʏʟɪsᴛs", callback_data="SERVERTOP"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ᴘᴇʀsᴏɴᴀʟ", callback_data="SERVERTOP user"
+                text="Pᴇʀsᴏɴᴀʟ", callback_data="SERVERTOP user"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ɢʟᴏʙᴀʟ", callback_data="SERVERTOP global"
+                text="Gʟᴏʙᴀʟ", callback_data="SERVERTOP global"
             ),
             InlineKeyboardButton(
-                text="ɢʀᴏᴜᴘ's", callback_data="SERVERTOP chat"
+                text="Gʀᴏᴜᴘ's", callback_data="SERVERTOP chat"
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʙᴀᴄᴋ", callback_data="get_playmarkup"
+                text="Bᴀᴄᴋ", callback_data="get_playmarkup"
             ),
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data="close"
+                text="💔 Cʟᴏsᴇ 💔", callback_data="close"
             ),
         ],
     ]
@@ -57,18 +57,18 @@ def get_playlist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴜᴅɪᴏ", callback_data="play_playlist a"
+                text="Aᴜᴅɪᴏ", callback_data="play_playlist a"
             ),
             InlineKeyboardButton(
-                text="ᴠɪᴅᴇᴏ", callback_data="play_playlist v"
+                text="Vɪᴅᴇᴏ", callback_data="play_playlist v"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ʙᴀᴄᴋ", callback_data="home_play"
+                text="Bᴀᴄᴋ", callback_data="home_play"
             ),
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data="close"
+                text="💔 Cʟᴏsᴇ 💔", callback_data="close"
             ),
         ],
     ]
