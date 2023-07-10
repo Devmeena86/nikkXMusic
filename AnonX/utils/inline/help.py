@@ -80,9 +80,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             [
                 InlineKeyboardButton(
                     text="Exᴛʀᴀ",
-                    callback_data="/id - get user id
-                    /gf /bf /love - get shayari 
-                    /tagall - tag all members",
+                    callback_data="help_callback hb13",
                 ),
             ],
             mark,
