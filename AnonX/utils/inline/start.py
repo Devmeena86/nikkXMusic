@@ -20,9 +20,11 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),           
      
             InlineKeyboardButton(
-                text="❤️‍🔥 Cʜᴀᴛᴛɪɴɢ ❤️‍🔥", url=f"https://t.me/II_VNND_WORLD"
+                text="❤️‍🔥 Cʜᴀᴛᴛɪɴɢ ❤️‍🔥", url=f"https://t.me/II_VNND_WORLD_II"
            
             ),
+        ],
+        [
             InlineKeyboardButton(
                 text="💘 Nᴇᴛᴡᴏʀᴋ 💘", url=f"https://t.me/NIDHI_NETWORKS"
            
