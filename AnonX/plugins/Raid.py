@@ -41,8 +41,7 @@ def get_user(message: Message, text: str) -> [int, str, None]:
 
 async def edit_or_send_as_file(
     text: str,
-    message: Message,
-    raid: raid,
+    message: Message,    
     caption: str = "`Result!`",
     file_name: str = "result",
     parse_mode="md",
