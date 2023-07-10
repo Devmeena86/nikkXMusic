@@ -2,7 +2,7 @@ from typing import Dict, List, Union
 
 from AnonX.Dev import clientdb
 
-assisdb = clientdb.multiassistant
+assisdb = db.multiassistant
 
 
 async def get_as_names(chat_id: int) -> List[str]:
