@@ -173,7 +173,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/DevilsHeavenMF"
+                            text="❤️‍🔥 Cʜᴀᴛᴛɪɴɢ ❤️‍🔥", url="https://t.me/II_VNND_WORLD_II"
                         ),
                     ],
                 ]
@@ -202,7 +202,8 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAANYZKbxM7g71qdCeuQ5RA0SMqM0rXwAAlYGAAJ1NMFWEYWAXui9LCIvBA")
+                await message.reply_text("🌸  Wᴇʟᴄᴏᴍᴇ  Tᴏ  Bᴏᴛ  🌸")
+                await message.reply_sticker("CAACAgUAAxkBAAEJpvVkrBZAI283MlvuC_4NOF2W626gEgACeQQAArOPwFYJ549FcwhaRC8E")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
