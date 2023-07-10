@@ -75,8 +75,8 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], [".", "!", "/"]))
-async def raid(client: Client, message: Message):       
+@Raid.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], [".", "!", "/"]))
+async def raid(message: Message):       
     sex = await message.reply_text("`Processing..`")
     quantity = message.command[1]
     text_ = get_text(message)
@@ -84,7 +84,7 @@ async def raid(client: Client, message: Message):
     user, reason = get_user(message, spam_text)
     failed = 0 
     try:
-        userz = await client.get_users(user)
+        userz = await Raid.get_users(user)
     except:
         await sex.edit(f"`404 : User Doesn't Exists In This Chat !`")
         return            
@@ -99,11 +99,11 @@ async def raid(client: Client, message: Message):
         await sex.edit("`You Can't spam there!`")
         return
     if int(userz.id) in DEADLYSPAM:
-        await sex.edit("Jaa na Lawde Owner h ohh Mera!")
+        await sex.edit("Jaa na Lawde Owner h vho Mera!")
         return    
     for _ in range(quantity):
         await asyncio.sleep(2)
         try:
-            await client.send_message(message.chat.id, uhm)            
+            await Raid.send_message(message.chat.id, uhm)            
         except FloodWait as e:
             await asyncio.sleep(e.x)
