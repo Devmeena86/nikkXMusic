@@ -9,7 +9,7 @@ def botplaylist_markup(_):
                 callback_data="get_playlist_playmode",
             ),
             InlineKeyboardButton(
-                text="Pʟᴏʙᴀʟ", callback_data="get_top_playlists"
+                text="Gʟᴏʙᴀʟ", callback_data="get_top_playlists"
             ),
         ],
         [
