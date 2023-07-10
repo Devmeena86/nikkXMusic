@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 𝙽𝚒𝚍𝚑𝚒 ✘ 𝚖𝚞𝚜𝚒𝚌 」──
+    ──「Nikk ✘ 𝚖𝚞𝚜𝚒𝚌 」──
 </h2>
 
 <p align="center">
-  <img src="https://te.legra.ph/file/7f4f4394b2f4dc9284f57.jpg">
+  <img src="https://te.legra.ph/file/b07bac992fbdfdc20c107.jpg"
     
     
    ## Features Of Siphia And Commands ❤️
